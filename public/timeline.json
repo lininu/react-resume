@@ -1,0 +1,40 @@
+[
+	{
+		"idx" : 0,
+		"name": "TutorABC",
+		"job": "Programmer",
+		"classIcon": "font--red",
+		"textIcon": "T",
+		"duration": { "start" : "2012-09", "end": "2013-06" },
+		"tools": [
+			{ "name" : "ASP"},
+            { "name" : "C#.NET MVC3" },
+            { "name" : "JQuery" },
+            { "name" : "MS SQL" }
+		],
+		"responsible": [
+			"Maintain B2C and Internal asp website.",
+			"Develop new C# .Net MVC3 website."
+		]
+	},
+	{
+		"idx" : 1,
+		"name": "EverFun Travel",
+		"job": "Front to End Engineer",
+		"classIcon": "font--green",
+		"textIcon": "E",
+		"duration": { "start" : "2015-03", "end": "now" },
+		"tools": [
+			{ "name" : "Compass & Sass", "timeDuration" : {"start" : "2015", "end" : "2016"} },
+            { "name" : "Gulp & Node-Sass", "timeDuration" : {"start" : "2016", "end" : "2017"}, "description" : "Cause Compass is no longer maintained, I changed Front-end compiler." },
+            { "name" : "Bootstrap" },
+            { "name" : "AngularJS v1.2.27", "description" : "Part of Pages render dynamic html by using AngularJS." },
+            { "name" : "Selenium (NodeJS)" }
+		],
+		"responsible": [
+			"B2C, B2B Front-end website developing.",
+			"Advertising landing page developing.",
+			"Front-end web API data transmission."
+		]
+	}
+]

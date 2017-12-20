@@ -1,0 +1,42 @@
+.slick-slider {
+	position: relative;
+}
+.slick-arrow {
+	position: absolute;
+	background-color: rgba(51, 51, 51, .8);
+	border: 1px solid $panel-default-border;
+	border-radius: 0;
+	padding: .5em 1em;
+	color: white;
+	font-size: 0;
+	&.slick-prev {
+		//content: $fa
+		left: 0;
+	}
+	&.slick-next {
+		right: 0;
+	}
+}
+
+.slick-dots {
+	text-align: center;
+	padding-left: 0;
+	li {
+		display: inline-block;
+		vertical-align: middle;
+		list-style: none;
+		&.slick-active {
+			button {
+				background: $brand-img-shadow;
+			}
+		}
+	}
+	button {
+		background: darken($gray-lighter, 5);
+		border: none;
+		font-size: 0;
+		width: 40px;
+		height: 3px;
+		margin: 0 5px;
+	}
+}

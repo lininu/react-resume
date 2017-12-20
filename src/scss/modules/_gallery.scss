@@ -1,0 +1,13 @@
+.gallery {
+	figure {
+		position: relative;
+		padding-bottom: 70%;
+		overflow: hidden;
+	}
+	img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+	}
+}

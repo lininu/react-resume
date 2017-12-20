@@ -1,0 +1,38 @@
+.tool-bar {
+	&--aside {
+		// position: fixed;
+		// bottom: 10%;
+		text-align: right;
+		// z-index: 0;
+		.tool-bar {
+			&__box {
+				position: fixed;
+				bottom: 10%;
+				width: 30px;
+				height: 30px;
+				z-index: 1000;
+				display: inline-block;
+				vertical-align: middle;
+			}
+			&__item {
+				height: 100%;
+				width: 100%;
+				background-color: rgba($gray-lighter, .5);
+				border: 1px solid darken($gray-lighter, 10);
+				color: darken($gray-light, 10);
+				padding: 0;
+				overflow: hidden;
+				line-height: 1;
+				vertical-align: middle;
+				transition: all .5s ease;
+				&:hover {
+					background-color: $gray-lighter;
+				}
+			}
+		}		
+	}
+}
+.gototop {
+	@extend .ion-arrow-up-b;
+	@extend .fa-lg;
+}

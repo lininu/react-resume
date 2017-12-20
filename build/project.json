@@ -1,0 +1,98 @@
+[
+    {
+        "idx" : 1,
+        "name" : "EFTravel",
+        "url" : "-",
+        "timeDuration" : {"start" : "2015", "end" : "now"},
+        "gallery" : [
+            { "src" : "", "alt" : "" },
+            { "src" : "", "alt" : "" },
+            { "src" : "", "alt" : "" }
+        ],
+        "tools" : [
+            { "name" : "Compass & Sass", "timeDuration" : {"start" : "2015", "end" : "2016"} },
+            { "name" : "Gulp & Node-Sass", "timeDuration" : {"start" : "2016", "end" : "2017"}, "description" : "Cause Compass is no longer maintained, I changed Front-end compiler." }
+        ],
+        "responsible": [
+            "Front-end coding by using JQuery, NodeJS, and Sass.",
+            "Customize UI plugins."
+        ]
+    },
+    {
+        "idx" : 2,
+        "name" : "EVAS",
+        "url" : "-",
+        "timeDuration" : {"start" : "2016", "end" : "2017"},
+        "gallery" : [
+            { "src" : "", "alt" : "" },
+            { "src" : "", "alt" : "" },
+            { "src" : "", "alt" : "" }
+        ],
+        "tools" : [
+            { "name" : "Gulp & Node-Sass" },
+            { "name" : "Bootstrap" },
+            { "name" : "AngularJS v1.2.27", "description" : "Part of Pages render dynamic html by using AngularJS." }
+        ],
+        "responsible": [
+            "Front-end coding by using JQuery, NodeJS, and Sass."
+        ]
+    },
+    {
+        "idx" : 3,
+        "name" : "EFTravel B2B",
+        "url" : "-",
+        "timeDuration" : {"start" : "2016", "end" : "2016"},
+        "gallery" : [
+            { "src" : "-", "alt" : "" },
+            { "src" : "-", "alt" : "" },
+            { "src" : "-", "alt" : "" }
+        ],
+        "tools" : [
+            { "name" : "Gulp & Node-Sass" }
+        ],
+        "responsible": [
+            "Front-end coding by using JQuery, NodeJS, and Sass."
+        ]
+    },
+    {
+        "idx" : 4,
+        "name" : "Travel Operating System",
+        "url" : "-",
+        "timeDuration" : {"start" : "2017", "end" : "now"},
+        "gallery" : [
+            { "src" : "-", "alt" : "" },
+            { "src" : "-", "alt" : "" },
+            { "src" : "-", "alt" : "" }
+        ],
+        "tools" : [
+            { "name" : "Gulp & Node-Sass" },
+            { "name" : "Bootstrap" },
+            { "name" : "Selenium (NodeJS)" }
+        ],
+        "responsible": [
+            "Responsive web site developed.",
+            "UI/UX designing.",
+            "Javascript example coding.",
+            "UI auto testing using Selenium of NodeJS."
+        ]
+    },
+    {
+        "idx" : 5,
+        "name" : "IM",
+        "url" : "-",
+        "timeDuration" : {"start" : "2017", "end" : "2017"},
+        "gallery" : [
+            { "src" : "-", "alt" : "" },
+            { "src" : "-", "alt" : "" },
+            { "src" : "-", "alt" : "" }
+        ],
+        "tools" : [
+            { "name" : "Gulp & Node-Sass" },
+            { "name" : "Bootstrap" }
+        ],
+        "responsible": [
+            "Responsive web site developed.",
+            "UI/UX designing."
+        ]
+    }
+]
